@@ -17,18 +17,12 @@ body{
 }
 .navbar{
     display: flex;
-    align-items: center; 
-    justify-content: space-between; 
     padding: 0 10px; 
     height: 70px;
     width: 100%;
     background-color: #219ebc;
-    display: flex;
-    align-content: center;
 }
-#logo, #search-bar, #other-info {
-    flex: 1;
-}
+
 
 #logo{
     display: flex;
