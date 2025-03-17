@@ -226,6 +226,7 @@ body{
 #about p{
     margin: 20px;
     color: #495057;
+    font-size: 15px;
 }
 
 #contacts h2 {
@@ -368,4 +369,13 @@ body{
         font-size: 1.5rem;
     }
 
+  }
+
+  @media screen and (max-width: 800px) {
+    #about p{
+        font-size: 12px;
+    }
+    #contacts img{
+        height: 17px;
+    }
   }
