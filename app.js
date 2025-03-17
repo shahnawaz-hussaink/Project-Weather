@@ -21,5 +21,21 @@ btn.addEventListener("click",()=>{
             temper.innerText = data.main.temp + "°C";
             discrip.innerText = data.weather[0].description;
 
-                });
+                })
+        .catch(error => {
+            alert("Your Internet Connection is Slow!");
+        })
+
+
+        let qt = document.getElementById("Quote");
+        let urltwo = "https://api.allorigins.win/get?url=" + encodeURIComponent("https://zenquotes.io/api/random");
+
+        fetch(urltwo)
+            .then(response => response.json())
+            .then((data) => {
+                let parsedData = JSON.parse(data.contents); // Extract JSON from the response
+                qt.innerText = parsedData[0].q + "\n - " + parsedData[0].a ;
+            })
+            .catch(error => console.error("Error fetching the quote:", error));
+        
 })  
