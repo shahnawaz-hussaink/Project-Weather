@@ -339,10 +339,10 @@ body{
     .name{
         display: none;
     }
-    #search-bar{
+    /* #search-bar{
         margin-right: 10%;
         margin-top: 5px;
-    }
+    } */
     .main-content{
         height: 250px;
         width: 70%;
@@ -415,7 +415,7 @@ body{
     }
   }
 
-  @media screen and (max-width: 650px) {
+  /* @media screen and (max-width: 650px) {
     #search-bar {
         display: flex !important;
         justify-content: center;
@@ -443,7 +443,7 @@ body{
         font-size: 1rem;
         border-radius: 8px;
     }
-}
+} */
 
 input:hover{
     box-shadow: 2px 2px 9px #00000060;
