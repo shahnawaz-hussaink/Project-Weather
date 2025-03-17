@@ -434,3 +434,12 @@ body{
         border-radius: 8px;
     }
 }
+
+input:hover{
+    box-shadow: 2px 2px 9px #00000060;
+    height: 49px;
+}
+button:hover{
+    box-shadow: 2px 2px 5px #00000060;
+    height: 49px;
+}
