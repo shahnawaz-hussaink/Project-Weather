@@ -196,7 +196,7 @@ body{
     height: 250px;
     width: 100%;
     background-color: #caf0f840;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 #upperline{
