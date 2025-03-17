@@ -8,80 +8,82 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <div id="logo">
-            <img src="logo.png" alt="Logo">
-            <h3>
-                WeatherShah.com
-            </h3>
+    <div class="container">
+        <div class="navbar">
+            <div id="logo">
+                <img src="logo.png" alt="Logo">
+                <h3>
+                    WeatherShah.com
+                </h3>
+            </div>
+            <div id="search-bar">
+                <div id="search">
+                    <input type="text" placeholder="Search for your city">
+                    <button>
+                        search
+                    </button>
+                </div>
+                
+            </div>
+            <div id="other-info">
+                <div id="current-state">
+                    <div id="city-nam">
+                        <h3>
+                           New Delhi, IND
+                        </h3>
+                    </div>
+                </div>
+                <div id="sign-in"> 
+                    <img src="signup-icon.png" alt="sign up">
+                    <div id="signup-text">
+                        <h5>
+                            Sign up
+                        </h5>
+                    </div>
+                </div>
+                <div id="hamburger">
+                    <img src="hamburger.png" alt="hamburger-icon">
+                </div>
+            </div>
         </div>
-        <div id="search-bar">
-            <div id="search">
-                <input type="text" placeholder="Search for your city">
-                <button>
-                    search
-                </button>
-            </div>
-            
+        <div class="navbar-below">
         </div>
-        <div id="other-info">
-            <div id="current-state">
-                <div id="city-nam">
-                    <h3>
-                       New Delhi, IND
-                    </h3>
-                </div>
-            </div>
-            <div id="sign-in"> 
-                <img src="signup-icon.png" alt="sign up">
-                <div id="signup-text">
-                    <h5>
-                        Sign up
-                    </h5>
-                </div>
-            </div>
-            <div id="hamburger">
-                <img src="hamburger.png" alt="hamburger-icon">
+        <div class="content-nav">
+            <div id="content-div">
+                <a id="today-up" href="#">Today</a>
+                <a id="hourly-up" href="#">Hourly</a>
+                <a id="day10-up" href="#">10 Day</a>
+                <a id="weekly-up" href="#"> Weekly</a>
+                <a id="monthly-up" href="#">Monthly</a>
             </div>
         </div>
-    </div>
-    <div class="navbar-below">
-    </div>
-    <div class="content-nav">
-        <div id="content-div">
-            <a id="today-up" href="#">Today</a>
-            <a id="hourly-up" href="#">Hourly</a>
-            <a id="day10-up" href="#">10 Day</a>
-            <a id="weekly-up" href="#"> Weekly</a>
-            <a id="monthly-up" href="#">Monthly</a>
-        </div>
-    </div>
-    <div id="blank-line"></div>
-    <div class="main-content">
-       <div id="main-city-name">
-            <div id="main-city">
-                <h3>New Delhi, IND</h3>
+        <div id="blank-line"></div>
+        <div class="main-content">
+           <div id="main-city-name">
+                <div id="main-city">
+                    <h3>New Delhi, IND</h3>
+                </div>
+           </div>
+           <div class="div-for-align">
+                <div id="temperature">
+                    <div id="tmp">
+                        <p>
+                            27° C 
+                        </p>
+                    </div>
+                    <br>
+                    <div id="dscp">
+                        <p>
+                            Haze
+                        </p>
+                    </div>
+                </div>
+                    <div id="quote">
+                        <p>
+                            Quote of the Day!
+                        </p>
+                    </div>
             </div>
-       </div>
-       <div class="div-for-align">
-            <div id="temperature">
-                <div id="tmp">
-                    <p>
-                        27° C 
-                    </p>
-                </div>
-                <br>
-                <div id="dscp">
-                    <p>
-                        Haze
-                    </p>
-                </div>
-            </div>
-                <div id="quote">
-                    <p>
-                        Quote of the Day!
-                    </p>
-                </div>
         </div>
     </div>
     <footer class="footer">
