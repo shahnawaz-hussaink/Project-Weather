@@ -126,17 +126,23 @@ body{
     background-color: #ade8f4;
 }
 .content-nav{
+    background-color: red;
     height:40px;
     width: 100%;
-    display: flex;
-    text-align: center;
-    
+    display: flex; 
 }
 #content-div{
     height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    align-content: center;
+    width: 100vw;
+    background-color: #00b4d8;
+    text-align: center;
+}
+.anchor-div{
+    height: 100%;
+    margin-top: 10px;
+}
+#content-div a {
+    font-size: 16px;
 }
 .content-nav a {
     text-decoration: none;
@@ -208,6 +214,8 @@ body{
     margin-top: auto;
 }
 #upperline{
+    top: 0;
+    margin-top: 0px;
     height: 2px;
     background-color: #cac6c6;
 }
@@ -303,11 +311,15 @@ body{
     }
   }
   @media screen and (max-width: 650px) {
-    #search-bar {
-        display: none;
-      }
     .content-nav{
         display: none;
+    }
+    .name{
+        display: none;
+    }
+    #search-bar{
+        margin-right: 10%;
+        margin-top: 5px;
     }
     .main-content{
         height: 250px;
