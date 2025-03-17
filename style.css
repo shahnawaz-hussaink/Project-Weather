@@ -22,7 +22,9 @@ body{
     width: 100%;
     background-color: #219ebc;
 }
-
+#logo, #search-bar, #other-info {
+    flex: 1;
+}
 
 #logo{
     display: flex;
@@ -141,7 +143,6 @@ body{
     
 }
 .content-nav{
-    background-color: red;
     height:40px;
     width: 100%;
     display: flex; 
@@ -446,4 +447,49 @@ input:hover{
 button:hover{
     box-shadow: 2px 2px 5px #00000060;
     height: 49px;
+}
+
+
+
+
+
+/* Mobile Styles for Search Bar */
+@media screen and (max-width: 1250px) {
+    #search-bar {
+        width: 100%; /* Make the search bar take full width */
+        padding: 5px; /* Add some padding for better appearance */
+    }
+
+    #search {
+        flex-direction: row; /* Ensure the input and button are in a row */
+        width: 100%; /* Make sure it takes full width */
+    }
+
+    #search input {
+        min-width: 150px; /* Ensure the input has a minimum width */
+        height: 45px; /* Maintain height for consistency */
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+
+    #search button {
+        height: 45px; /* Maintain height for consistency */
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #search-bar {
+        width: 100%; /* Ensure it takes full width */
+    }
+
+    #search input {
+        min-width: 120px; /* Adjust minimum width for smaller screens */
+        height: 40px; /* Slightly reduce height for smaller screens */
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+
+    #search button {
+        height: 40px; /* Slightly reduce height for smaller screens */
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
 }
