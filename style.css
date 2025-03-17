@@ -16,6 +16,10 @@ body{
     flex: 1;
 }
 .navbar{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 10px; 
     height: 70px;
     width: 100%;
     background-color: #219ebc;
@@ -355,7 +359,6 @@ body{
     .footer-content{
         height: 280px;
     }
-
   }  
   @media screen and (max-width: 450px) {
     .main-content{
