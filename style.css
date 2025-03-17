@@ -359,6 +359,17 @@ body{
     .footer-content{
         height: 280px;
     }
+    #search-bar {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #search input {
+        width: 70%;
+    }
+    #search button {
+        width: 20%;
+    }
+    
   }  
   @media screen and (max-width: 450px) {
     .main-content{
