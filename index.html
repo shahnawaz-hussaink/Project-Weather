@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="logo.png">
-    <title>WeatherShah.com</title>
+    <title>WeatherSun</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,14 +14,14 @@
                 <img src="logo.png" alt="Logo">
                 <div class="name">
                     <h3>
-                        WeatherShah.com
+                        <a href="https://shahnawaz-hussaink.github.io/Project-Weather/" style="text-decoration: none; color: #023e8a;;">WeatherSun</a>
                     </h3>
                 </div>
                 
             </div>
             <div id="search-bar">
                 <div id="search">
-                    <input type="text" placeholder="Search for your city">
+                    <input id="city-name" type="text" placeholder="Search for your city">
                     <button>
                         search
                     </button>
@@ -31,7 +31,7 @@
             <div id="other-info">
                 <div id="current-state">
                     <div id="city-nam">
-                        <h3>
+                        <h3 class="nav-city-name">
                            New Delhi, IND
                         </h3>
                     </div>
@@ -66,19 +66,19 @@
         <div class="main-content">
            <div id="main-city-name">
                 <div id="main-city">
-                    <h3>New Delhi, IND</h3>
+                    <h3 class="nav-city-name">New Delhi, IND</h3>
                 </div>
            </div>
            <div class="div-for-align">
                 <div id="temperature">
                     <div id="tmp">
-                        <p>
+                        <p id="temp-on-time">
                             27° C 
                         </p>
                     </div>
                     <br>
                     <div id="dscp">
-                        <p>
+                        <p id="description">
                             Haze
                         </p>
                     </div>
