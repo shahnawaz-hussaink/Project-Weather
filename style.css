@@ -4,7 +4,7 @@
 }
 body{
     height: 100vh; 
-    background-color: #f2f2f2;
+    background-color: #caf0f850;
 }
 
 .navbar{
@@ -85,6 +85,9 @@ body{
     margin-top: 25px;
     color: #032c62;
     
+}
+.other-info{
+    display: block;
 }
 #sign-in{
     height: 100%;
@@ -192,7 +195,7 @@ body{
 .footer{
     height: 250px;
     width: 100%;
-    background-color: #e9ecef;
+    background-color: #caf0f840;
     position: fixed;
     bottom: 0;
 }
@@ -256,3 +259,103 @@ body{
     color: #52b69a;
     color: #495057;
 }
+
+/* Making Flexiable */
+  @media screen and (max-width: 1250px) {
+    #other-info {
+        display: none;
+      }
+    }
+@media screen and (max-width: 1250px) {
+   
+    .main-content{
+        height: 250px;
+        width: 50%;
+    }
+    #main-city-name{
+        height: 60px;
+    }
+    #main-city{
+        width: 100%;
+    }
+    #main-city h3{
+        font-size: 2.5rem;
+        margin: 0 auto;
+
+    }
+    #tmp{
+        font-size: 3.5rem;
+    }
+    #quote{
+        font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    #search-bar {
+        display: none;
+      }
+    .content-nav{
+        display: none;
+    }
+    .main-content{
+        height: 250px;
+        width: 70%;
+    }
+    #main-city-name{
+        height: 50px;
+    }
+    #main-city{
+        width: 100%;
+    }
+    #main-city h3{
+        font-size: 1.9rem;
+        margin: 0 auto;
+
+    }
+    #tmp{
+        font-size: 3rem;
+    }
+    #quote{
+        font-size: 1.5rem;
+    }
+    .footer{
+        height: 350px;
+    }
+    .footer-content{
+        height: 280px;
+    }
+
+  }  
+  @media screen and (max-width: 450px) {
+    .main-content{
+        height: 250px;
+        width: 80%;
+    }
+    #main-city-name{
+        height: 50px;
+    }
+    #main-city{
+        width: 100%;
+    }
+    #main-city h3{
+        font-size: 1.5rem;
+        margin: 0 auto;
+    }
+    #tmp{
+        font-size: 2.5rem;
+    }
+    #quote{
+        margin-top: 30px;
+        font-size: 0.8rem;
+    }
+    .footer{
+        height: 100px;
+    }
+    .footer-content{
+       display: none;
+    }
+    #last-footer p{
+        font-size: 1.5rem;
+    }
+
+  }
