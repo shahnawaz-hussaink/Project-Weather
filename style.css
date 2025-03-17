@@ -136,6 +136,15 @@ body{
     height: 40px;
     width: 100%;
     background-color: #ade8f4;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-below p{
+    color: #023047dd;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-size: 2.1rem;
+    
 }
 .content-nav{
     background-color: red;
@@ -200,7 +209,7 @@ body{
     font-weight: bold;
     color: #d7e3fc;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 7px;
     margin-bottom: 0px;
 }
 #dscp{
@@ -218,6 +227,7 @@ body{
     font-size: 1.5rem;
     color: #03045e;
 }
+
 .footer {
     height: 250px;
     width: 100%;

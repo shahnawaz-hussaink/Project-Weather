@@ -33,9 +33,22 @@ btn.addEventListener("click",()=>{
         fetch(urltwo)
             .then(response => response.json())
             .then((data) => {
-                let parsedData = JSON.parse(data.contents); // Extract JSON from the response
+                let parsedData = JSON.parse(data.contents); 
                 qt.innerText = parsedData[0].q + "\n - " + parsedData[0].a ;
             })
             .catch(error => console.error("Error fetching the quote:", error));
+
+        
+            let t = document.getElementById("tim");
+            let d = document.getElementById("dat");
+            let urlThree = `https://www.timeapi.io/api/Time/current/zone?timeZone=Asia/Kolkata`;
+
+            fetch(urlThree)
+            .then(response => response.json())
+            .then((data)=>{
+                t.innerText = data.time;
+                let [month, day, year] = data.date.split("/");
+                d.innerText = `${day}/${month}/${year}`;
+            })
         
 })  
