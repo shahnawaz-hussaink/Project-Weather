@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,13 +9,13 @@ html, body {
     flex-direction: column;
     overflow-x: hidden;
 }
-body{ 
+body { 
     background-color: #caf0f850;
 }
-.container{
+.container {
     flex: 1;
 }
-.navbar{
+.navbar {
     display: flex;
     padding: 0 10px; 
     height: 70px;
@@ -26,11 +26,11 @@ body{
     flex: 1;
 }
 
-#logo{
+#logo {
     display: flex;
     height: 100%;
 }
-#logo h3{
+#logo h3 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     margin-top: 20px;
@@ -80,108 +80,33 @@ body{
     font-weight: bold;
     color: #074eab;
 }
-#search-bar input:valid {
-    font-size: 20px;
-    margin-left : 20px;
-}
-#other-info{
+#other-info {
     height: 100%;
     display: flex;
 }
-#current-state #sign-in #hamburger{
-    flex: 1;
-}
-#current-state {
-    margin-left: 1%;
-    height: 100%;
-    width: 60%;
-    text-align: center;
-}
-#city-nam{
-    margin-top: 25px;
-    color: #032c62;
-    
-}
-.other-info{
-    display: block;
-}
-#sign-in{
-    height: 100%;
-    width: 20%;
-    align-content: center;
-}
-#sign-in img{
-    height: 45%;
-    margin-left: 40%;
-}
-#signup-text{
-    margin-left: 30%;
-    font-size: 1.2rem;
-    color: #02377c;
-}
-#hamburger{
-    height: 100%;
-    width: 20%;
-}
-#hamburger img{
-    height: 50%;
-    margin-left: 50%;
-    margin-top: 15px;
-}
-.navbar-below{
+.navbar-below {
     height: 40px;
     width: 100%;
     background-color: #ade8f4;
     display: flex;
     justify-content: space-between;
 }
-.navbar-below p{
+.navbar-below p {
     color: #023047dd;
     font-size: 1.4rem;
     font-weight: bold;
     font-size: 2.1rem;
-    
 }
-.content-nav{
-    height:40px;
-    width: 100%;
-    display: flex; 
-}
-#content-div{
-    height: 100%;
-    width: 100vw;
-    background-color: #00b4d8;
-    text-align: center;
-}
-.anchor-div{
-    height: 100%;
-    margin-top: 10px;
-}
-#content-div a {
-    font-size: 16px;
-}
-.content-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    margin-left: 12%;
-    font-family:'Times New Roman', Times, serif;
-}
-#blank-line{
-    height: 2px;
-    width: 100%;
-    background-color: #dee2e6;
-}
-.main-content{
+.main-content {
     height: 300px;
     width: 60%;
     margin: 0 auto;
     margin-top: 20px;
-    background:  linear-gradient(to right, #0077b6, #90e0ef); 
+    background: linear-gradient(to right, #0077b6, #90e0ef); 
     border: 2px solid #d7e3fc;
     border-radius: 10px;
 }
-#main-city-name{
+#main-city-name {
     height: 65px;
     width: 100%;
     background-color: #0000008c;
@@ -189,16 +114,12 @@ body{
     border: 0px solid 0000008c;
     border-radius: 4px;
 }
-#main-city h3{
+#main-city h3 {
     font-size: 45px;
     margin-right: 60%;
     color: #d7e3fc;
 }
-.div-for-align{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-#tmp{
+#tmp {
     font-family: sans-serif;
     font-size: 5rem;
     font-weight: bold;
@@ -207,7 +128,7 @@ body{
     margin-top: 7px;
     margin-bottom: 0px;
 }
-#dscp{
+#dscp {
     font-family: sans-serif;
     font-size: 2rem;
     font-weight: bold;
@@ -215,14 +136,13 @@ body{
     margin-top: 0px;
     margin-left: 20px;
 }
-#quote{
+#quote {
     width: 70%;
     margin-left: 20%;
     margin-top: 5%;
     font-size: 1.5rem;
     color: #03045e;
 }
-
 .footer {
     height: 250px;
     width: 100%;
@@ -230,266 +150,48 @@ body{
     padding: 10px;
     margin-top: auto;
 }
-#upperline{
+#upperline {
     top: 0;
     margin-top: 0px;
     height: 2px;
     background-color: #cac6c6;
 }
-.footer-content{
+.footer-content {
     height: 180px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-#about{
+#about {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #023047dd;
+}
+#contacts {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #023047dd;
+}
+#tech-used {
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #023047dd;
+}
+ul {
+    font-size: 1.1rem;
+}
+ul li {
+    font-weight: bold;
+    color: #023047dd;
+}
+#last-footer {
+    height: 30px;
     text-align: center;
 }
-#about h2{
-    margin-top: 10px;
-    color: #495057;
-}
-#about p{
-    margin: 20px;
-    color: #495057;
-    font-size: 15px;
-}
-
-#contacts h2 {
-    margin-top: 10px;
-    text-align: center;
-    color: #495057;
-}
-#contacts img{
-   height: 30px;
-   margin: 15px;
-   margin-left: 40px;
-}
-
-#tech-used h2 {
-    margin-top: 10px;
-    text-align: center;
-    color: #495057;
-}
-#tech-used li{
-    list-style: none;
-    margin: 10px;
-    margin-left: 45%;
-    color: #495057;
-}
-#a-line{
-    height: 2px;
-    background-color: #cac6c6;
-    width: 80%;
-    margin: 0 auto;
-}
-#last-footer{
-    height: 70px;
-}
-#last-footer p{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 10px;
-    color: #52b69a;
-    color: #495057;
-}
-
-
-
-
-
-  @media screen and (max-width: 1250px) {
-    #other-info {
-        display: none;
-      }
-    }
-@media screen and (max-width: 1250px) {
-   
-    .main-content{
-        height: 250px;
-        width: 50%;
-    }
-    #main-city-name{
-        height: 60px;
-    }
-    #main-city{
-        width: 100%;
-    }
-    #main-city h3{
-        font-size: 2.5rem;
-        margin: 0 auto;
-
-    }
-    #tmp{
-        font-size: 3.5rem;
-    }
-    #quote{
-        font-size: 1.2rem;
-    }
-  }
-  @media screen and (max-width: 650px) {
-    .content-nav{
-        display: none;
-    }
-    .name{
-        display: none;
-    }
-    /* #search-bar{
-        margin-right: 10%;
-        margin-top: 5px;
-    } */
-    .main-content{
-        height: 250px;
-        width: 70%;
-    }
-    #main-city-name{
-        height: 50px;
-    }
-    #main-city{
-        width: 100%;
-    }
-    #main-city h3{
-        font-size: 1.9rem;
-        margin: 0 auto;
-
-    }
-    #tmp{
-        font-size: 3rem;
-    }
-    #quote{
-        font-size: 1rem;
-    }
-    .footer{
-        height: 350px;
-    }
-    .footer-content{
-        height: 280px;
-    }
-    
-  }  
-  @media screen and (max-width: 450px) {
-    .main-content{
-        height: 250px;
-        width: 80%;
-    }
-    #main-city-name{
-        height: 50px;
-    }
-    #main-city{
-        width: 100%;
-    }
-    #main-city h3{
-        font-size: 1.5rem;
-        margin: 0 auto;
-    }
-    #tmp{
-        font-size: 2.5rem;
-    }
-    #quote{
-        margin-top: 30px;
-        font-size: 0.8rem;
-    }
-    .footer{
-        height: 100px;
-    }
-    .footer-content{
-       display: none;
-    }
-    #last-footer p{
-        font-size: 1.5rem;
-    }
-
-  }
-
-  @media screen and (max-width: 800px) {
-    #about p{
-        font-size: 12px;
-    }
-    #contacts img{
-        height: 17px;
-    }
-  }
-
-  /* @media screen and (max-width: 650px) {
-    #search-bar {
-        display: flex !important;
-        justify-content: center;
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    #search {
-        display: flex;
-        width: 90%;
-    }
-
-    #search input {
-        flex: 1;
-        height: 40px;
-        border-radius: 8px;
-        padding: 0 10px;
-        min-width: 100px;
-    }
-
-    #search button {
-        height: 40px;
-        min-width: 50px;
-        margin-left: 5px;
-        font-size: 1rem;
-        border-radius: 8px;
-    }
-} */
-
-input:hover{
-    box-shadow: 2px 2px 9px #00000060;
-    height: 49px;
-}
-button:hover{
-    box-shadow: 2px 2px 5px #00000060;
-    height: 49px;
-}
-
-
-
-
-
-/* Mobile Styles for Search Bar */
-@media screen and (max-width: 1250px) {
-    #search-bar {
-        width: 100%; /* Make the search bar take full width */
-        padding: 5px; /* Add some padding for better appearance */
-    }
-
-    #search {
-        flex-direction: row; /* Ensure the input and button are in a row */
-        width: 100%; /* Make sure it takes full width */
-    }
-
-    #search input {
-        min-width: 150px; /* Ensure the input has a minimum width */
-        height: 45px; /* Maintain height for consistency */
-        font-size: 1rem; /* Adjust font size for readability */
-    }
-
-    #search button {
-        height: 45px; /* Maintain height for consistency */
-        font-size: 1rem; /* Adjust font size for readability */
-    }
-}
-
-@media screen and (max-width: 650px) {
-    #search-bar {
-        width: 100%; /* Ensure it takes full width */
-    }
-
-    #search input {
-        min-width: 120px; /* Adjust minimum width for smaller screens */
-        height: 40px; /* Slightly reduce height for smaller screens */
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
-    }
-
-    #search button {
-        height: 40px; /* Slightly reduce height for smaller screens */
-        font-size: 0.9rem; /* Adjust font size for smaller screens */
-    }
+#last-footer p {
+    font-weight: bold;
+    font-size: 1.3rem;
 }
